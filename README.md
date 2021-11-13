@@ -128,3 +128,8 @@ For a dirty build, use:
 make installclean
 ```
 Dirty build is recommended till the android version changes.
+
+## Credits
+- [Lineage OS](https://lineageosroms.com/guacamoleb/)
+- [Pixel Experience](https://wiki.pixelexperience.org/devices/guacamoleb/build/)
+- [Akhil Narang](https://github.com/akhilnarang)
