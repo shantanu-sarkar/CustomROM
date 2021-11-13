@@ -7,6 +7,7 @@ This is a very beginner friendly tutorial on how to build a Custom ROM for your 
 - Your device with USB cable (OnePlus 7 for example)
 - x64-bit decently powerful Linux PC or server (Recommended: 6 or more cores with 32GB RAM, although 16GB should do the job. HDD or SSD storage of 350GB or more). I will be considering Ubuntu to build in this tutorial.
 - Unlimited internet connection
+- Basic Git and GitHub knowledge. You will need some advanced knowledge too which you will learn along with time.
 
 ## Let's begin
 ## 1. Download and install platform-tools
@@ -81,7 +82,7 @@ For OnePlus 7 we have 3, 1 and 2 directories respectively in device trees, kerne
 ## Device trees
 - [android/device/oneplus/guacamoleb](https://github.com/shantanu-sarkar/android_device_oneplus_guacamoleb)
 - [android/device/oneplus/sm8150-common](https://github.com/AospExtended-Devices/device_oneplus_sm8150-common)
-- [android/device/oneplus/common](https://github.com/AospExtended-Devices/device_oneplus_common)
+- [android/device/oneplus/common](https://github.com/AospExtended-Devices/device_oneplus_common) <br />
 Clone them to the respective directories
 and rename the folders correctly. For example rename "android_device_oneplus_guacamoleb" to "guacamoleb" in "android/device/oneplus/" directory after cloning it from GitHub.
 Click the directories to see the trees that I use for my build. If you are adapting trees from Lineage OS, you need to make a few changes in the trees as in [here](https://github.com/shantanu-sarkar/android_device_oneplus_guacamoleb/commit/1d83a5ca546a9ebb20175eb156fbf9888e4dc2d6) and [here](https://github.com/AospExtended-Devices/device_oneplus_sm8150-common/commit/813b0320384b95c5461b2776388c561a64868864). Refer other trees of your device to know what exact changes you need to make. The changes in this tutorial will for be same for your device.
