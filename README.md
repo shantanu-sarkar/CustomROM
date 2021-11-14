@@ -1,7 +1,7 @@
 
 # Building a Custom ROM
 
-This is a very beginner friendly tutorial on how to build a Custom ROM for your device. For this tutorial I will be taking AOSP Extended ROM for OnePlus 7 as an example.
+This is a very beginner friendly tutorial on how to build a Custom ROM for your device. For this tutorial, I will be taking AOSP Extended ROM for OnePlus 7 as an example.
 ## Requirements
 
 - Your device with USB cable (OnePlus 7 for example)
@@ -82,7 +82,7 @@ For OnePlus 7 we have 3, 1 and 2 directories respectively in device trees, kerne
 ## Device trees
 - [android/device/oneplus/guacamoleb](https://github.com/shantanu-sarkar/android_device_oneplus_guacamoleb)
 - [android/device/oneplus/sm8150-common](https://github.com/AospExtended-Devices/device_oneplus_sm8150-common)
-- [android/device/oneplus/common](https://github.com/AospExtended-Devices/device_oneplus_common) <br />
+- [android/device/oneplus/common](https://github.com/AospExtended-Devices/device_oneplus_common) <br /> <br />
 Clone them to the respective directories
 and rename the folders correctly. For example rename "android_device_oneplus_guacamoleb" to "guacamoleb" in "android/device/oneplus/" directory after cloning it from GitHub.
 Click the directories to see the trees that I use for my build. If you are adapting trees from Lineage OS, you need to make a few changes in the trees as in [here](https://github.com/shantanu-sarkar/android_device_oneplus_guacamoleb/commit/1d83a5ca546a9ebb20175eb156fbf9888e4dc2d6) and [here](https://github.com/AospExtended-Devices/device_oneplus_sm8150-common/commit/813b0320384b95c5461b2776388c561a64868864). Refer other trees of your device to know what exact changes you need to make. The changes in this tutorial will for be same for your device.
@@ -104,7 +104,7 @@ ccache -M 50G
 m aex -j$(nproc --all) | tee log.txt
 ```
 Above mentioned 3rd, 4th and 5th lines are only for first build. It will set ccache for building ROMs."50G" is to metion the amount of ccache you are allocating to build the ROM. 30 to 50 GB should be enough for building ROM for one device. ccache will increase the speed of building the ROM.
-For OnePlus 7 the following commands to be used fot first build.
+For OnePlus 7 the following commands to be used for first build.
 ```bash
 source build/envsetup.sh
 lunch aosp_guacamoleb-userdebug
