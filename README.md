@@ -12,7 +12,6 @@ This is a very beginner friendly tutorial on how to build a Custom ROM for your 
 ## Let's begin
 ## 1. Download and install platform-tools
 
-
 Download the platform-tools for Linux from [here](https://developer.android.com/studio/releases/platform-tools).
 Then go to the downloads location, right click in the directory and open in terminal. Use this command to unzip:
 ```bash
@@ -22,6 +21,11 @@ Rename "<platform_tools_file_name>" with the original file name you downloaded. 
 ```bash
 cd ~/
 gedit ~/.profile
+```
+If it is Linux Ubuntu without GUI (i.e., only terminal), "gedit" command won't work. You need to use "nano" instead. Use the following instead of the above command.
+```bash
+cd ~/
+nano ~/.profile
 ```
 A text file window will open-up. Just enter the following text at the bottom of the text file, save it and close.
 ```bash
