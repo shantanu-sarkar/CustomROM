@@ -12,10 +12,13 @@ This is a very beginner friendly tutorial on how to build a Custom ROM for your 
 ## Let's begin
 ## 1. Download and install platform-tools
 
-Download the platform-tools for Linux from [here](https://developer.android.com/studio/releases/platform-tools).
+Download the platform-tools for Linux from here.
+```bash
+wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
+```
 Then go to the downloads location, right click in the directory and open in terminal. Use this command to unzip:
 ```bash
-unzip <platform_tools_file_name>.zip -d ~
+unzip platform-tools-latest-linux.zip -d ~
 ```
 Rename "<platform_tools_file_name>" with the original file name you downloaded. Now you have to add adb and fastboot to your PATH. In the same terminal enter this:
 ```bash
