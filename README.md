@@ -72,7 +72,7 @@ git config --global user.name "Your Name"
 Get into the android directory that we created and initialize the branch of repo that you wish to build. You can find the link to initialize the repo in the manifest of the particular ROM. As I am considering LineageOS ROM for example, you can look at their manifest from [here](https://github.com/LineageOS/android/tree/lineage-20.0). LineageOS calls this particular repo as "android" but for other ROMs it is usually called as "manifest". Just for reference you can look at the manifest of Pixel Experience from [here](https://github.com/PixelExperience/manifest).
 ```bash
 cd ~/android
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0
+repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
 ```
 Download the source code by this command:
 ```bash
