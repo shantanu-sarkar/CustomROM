@@ -5,7 +5,7 @@ This is a very beginner friendly tutorial on how to build a Custom ROM for your 
 ## Requirements
 
 - Your device with USB cable (OnePlus 7 for example)
-- x64-bit decently powerful Linux PC or server (Recommended: 6 or more cores with 32GB RAM, although 16GB should do the job. Storage of 350GB or more). I will be considering Ubuntu to build in this tutorial.
+- x64-bit powerful Linux PC or server. Recommended: 4 cores - 8 threads or more with 64GB RAM, (32GB RAM + 16GB or more ZRAM should also do the job). Just 32GB RAM for Android 14 onwards will lead to the build being killed. Storage of 350GB or more. I will be considering Ubuntu to build in this tutorial.
 - Unlimited internet connection
 - Basic Git and GitHub knowledge. You will need some advanced knowledge too which you can learn along with time.
 
